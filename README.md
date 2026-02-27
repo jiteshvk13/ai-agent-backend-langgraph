@@ -11,7 +11,6 @@ This project demonstrates AI orchestration, optional search integration, API saf
 - 🔍 Optional web search using Tavily
 - ⚡ Async FastAPI backend
 - 🛑 Timeout protection for LLM calls
-- 🚦 Rate limiting (per IP)
 - 📝 File-based logging
 - 🔐 Environment-based API key management
 - 🐳 Dockerized for portable deployment
@@ -42,7 +41,6 @@ Return Response
 - LangChain
 - Google Gemini API
 - Tavily Search
-- SlowAPI (Rate Limiting)
 - Docker
 
 ---
@@ -53,6 +51,7 @@ Create a `.env` file:
 
 
 GOOGLE_API_KEY=your_google_api_key
+
 TAVILY_API_KEY=your_tavily_api_key
 
 
